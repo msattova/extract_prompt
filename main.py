@@ -1,7 +1,7 @@
 import argparse
 from pathlib import Path
 
-from img2param import get_param, is_PNG, show_binary
+from extract_prompt import get_param, is_PNG, show_binary
 
 
 def out_md(img_path: Path, param: list[str]):
